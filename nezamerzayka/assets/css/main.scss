@@ -1,0 +1,24 @@
+@import "0-tools/normolize";
+@import "0-tools/bourbon/bourbon";
+
+@import "1-base/_font.sass";
+@import "1-base/_base.sass";
+@import "1-base/_color.sass";
+@import "1-base/_path.sass";
+@import "3-icons/zmicon.scss";
+@import "4-resource/_slider.sass";
+
+@import "2-modules/_header.sass";
+@import "2-modules/_section.sass";
+@import "2-modules/_footer.sass";
+
+body {
+	width: 100%;
+	height: 100%;
+}
+
+html, body {
+	height: 100%;
+}
+
+

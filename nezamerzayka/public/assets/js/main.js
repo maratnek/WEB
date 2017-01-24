@@ -1,0 +1,1 @@
+var slideIndex=1;!function(e){var s,i,o=function(){return console.log(s),s.removeClass("slider_size"),s.hide(),i==s.length+1?void e(".image_all").show():(s.eq(i-1).addClass("slider_size").show(),i++,void setTimeout(o,4e3))};e.fn.carousel=function(){if(s=e(this),console.log(s.length),0!=s.length)return i=1,o(),e(this)}}(jQuery);

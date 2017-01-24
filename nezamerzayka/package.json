@@ -1,0 +1,51 @@
+{
+  "name": "nofreeze",
+  "version": "0.2.5",
+  "description": "A sample Node.js app using Express 4",
+  "engines": {
+    "node": "5.9.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "4.13.3",
+    "gulp-uglifyjs": "^0.6.2",
+    "jade": "^1.11.0",
+    "nodemailer": "^2.6.4",
+    "nodemailer-smtp-transport": "^2.7.2",
+    "simple-recaptcha-new": "^1.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maratnek/webdesignzm.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maratnek/webdesignzm/issues"
+  },
+  "homepage": "https://github.com/maratnek/webdesignzm#readme",
+  "author": "zm",
+  "devDependencies": {
+    "browser-sync": "^2.18.2",
+    "del": "^2.2.2",
+    "express": "^4.13.3",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-cache": "^0.4.5",
+    "gulp-image-resize": "^0.10.0",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-watermark": "0.0.1",
+    "jade": "^1.11.0"
+  }
+}
