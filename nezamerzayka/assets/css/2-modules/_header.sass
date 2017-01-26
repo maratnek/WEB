@@ -1,19 +1,29 @@
 header.head 
-	background-color: $bg_header
+	// background-color: $bg_header
 	background-image: url($url_header + 'drawing.png');
 	background-attachment: fixed
 	background-repeat: no-repeat
-	background-position: center center
+	background-position: center 
 	background-size: cover 
-	z-index: -3
 	height: 100vh
 	margin-bottom: 50px
-	// align
-	display: flex
-	flex-direction: column
-	justify-content: center
-	align-items: center
+
+	h1
+		position: absolute 
+		padding-top: 180px
+		top: 0
+		color: $H_FONT_C
+		font-size: 4em
+
+	nav
+		ul
+			float: right
+			li
+				list-style: none
+				a
+					color: $H_FONT_C 
 
 	.logo img
 		width: 100px
+		padding: 10px
 		
